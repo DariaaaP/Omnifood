@@ -286,6 +286,10 @@
     height: 32rem;
     grid-row: 1;
   }
+
+  .modal__dialog {
+    max-width: 45rem;
+  }
 }
 /* 
 - FONT SIZE SYSTEM (px)
