@@ -74,12 +74,12 @@ function showThanksModal() {
   modal.classList.add("show");
   document.documentElement.style.overflow = "hidden";
   const thanksModal = document.createElement("div");
-  thanksModal.classList.add("modal__dialog");
-  thanksModal.classList.add("modal__dialog");
+  thanksModal.classList.add("modal-dialog");
+  thanksModal.classList.add("modal-dialog");
   thanksModal.innerHTML = `
-    <div class="modal__content">
-      <div class="modal__close" data-close>×</div>
-      <div class="modal__title">Thank you!<br> We will contact you soon!</div>
+    <div class="modal-content">
+      <div class="modal-close" data-close>×</div>
+      <div class="modal-title">Thank you!<br> We will contact you soon!</div>
     </div>
   `;
 
